@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styles.css?v=4">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="automatico.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -26,7 +27,7 @@
             <li><a href="#ideias">Ideias</a></li>
             <li><a href="#acao">Plano de ação</a></li>
             <li><a href="#" target="_blank">Facebook</a></li>
-            <li><a href="#" target="_blank">Twitter</a></li>
+            <li><a href="/audio/jingle.mp3" download>Jingle</a></li>
             <li><a href="https://www.instagram.com/sergio_eduardo90" target="_blank">Instagram</a></li>
             <li><a href="#" target="_blank">YouTube</a></li>
         </ul>
@@ -46,6 +47,11 @@
             <p>O vereador tem dois papéis que são essenciais, o primeiro é elaborar leis que vão impactar de forma positiva a vida do cidadão bonjardinense e o segundo é fiscalizar o poder executivo!</p>
     </article>
 
+    <audio controls onload="tocajingle()">
+        <source src="audio/jingle.mp3" type="audio/mp3">
+      Your browser does not support the audio element.
+      </audio>
+
     <section class="gallery">
         <h3>Galeria de Imagens</h3>
         <div class="gallery-container">
@@ -53,7 +59,6 @@
             <img src="imagem/2.jpg" alt="Imagem 2">
             <img src="imagem/3.jpg" alt="Imagem 3">
             <img src="imagem/4.jpg" alt="Imagem 4">
-            <img src="imagem/5.jpg" alt="Imagem 5">
         </div>
     </section>
 
